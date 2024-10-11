@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+	.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 60px; /* Increased padding */
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+.social-container {
+	margin: 30px 0; /* Increased margin */
+}
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px; /* Increased margin */
+	height: 50px; /* Increased size */
+	width: 50px; /* Increased size */
+}
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 60px; /* Increased padding */
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 16px 20px; /* Increased padding */
+	margin: 10px 0;
+	width: 100%;
+	font-size: 16px; /* Increased size */
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 900px; /* Increased width */
+	max-width: 100%;
+	min-height: 600px; /* Increased height */
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+	font-size: 48px; /* Increased size */
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px; /* Increased size */
+}
+
+p {
+	font-size: 18px; /* Increased size */
+	font-weight: 100;
+	line-height: 24px;
+	letter-spacing: 0.7px;
+	margin: 30px 0 40px; /* Increased margin */
+}
+
+span {
+	font-size: 16px; /* Increased size */
+}
+
+a {
+	color: #333;
+	font-size: 16px; /* Increased size */
+	text-decoration: none;
+	margin: 20px 0;
+}
+
+button {
+	margin-top: 30px; /* Increased margin */
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 16px; /* Increased size */
+	font-weight: bold;
+	padding: 16px 60px; /* Increased padding */
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Loader</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
